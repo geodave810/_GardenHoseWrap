@@ -15,3 +15,14 @@ I have had the best luck with printing these with 3 layers of raft in the same o
 ![IMG_4935_800x600](https://github.com/geodave810/_GardenHoseWrap/assets/13069472/2c6bbfda-9b76-4fba-b471-acab1c621b94)
 
 If you find this program useful to you, consider making a donation from the link on the right or purchasing one of my audio recordings of Mountain streams from Amazon in the 2nd link on the right.
+
+Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
