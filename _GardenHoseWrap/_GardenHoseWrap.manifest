@@ -1,0 +1,10 @@
+{
+	"autodeskProduct":	"Fusion",
+	"type":	"script",
+	"author":	"David Bunch",
+	"description":	{
+		"":	"Garden Hose Wrap for kinks in the hose"
+	},
+	"supportedOS":	"windows|mac",
+	"editEnabled":	true
+}
