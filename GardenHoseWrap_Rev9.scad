@@ -2,6 +2,7 @@
 // 6/14/2024 By: David Bunch
 // Garden Hose Wrap for kinks in the hose
 //
+// v1.0.0
 // Change rev variable to adjust height of wrap
 // With a Pitch of 48 these different rev's will give the corresponding heights
 // The displayed Base_Ht is the final height of the Garden Hose Wrap
