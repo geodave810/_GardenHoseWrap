@@ -3,7 +3,7 @@ Garden Hose Wrap for kinks in the hose
 
 There is fusion 360 python script source code and an OpenSCAD source code that allow you to adjust the Inside Diameter, Pitch, Thickness of Wrap, Number of Revolutions and number of Spline Points
 In Fusion 360, you change the values in a dialog box.  The 1st 3 variables should be entered in mm.<br>
-![GardenHoseWrap_Dialog](https://github.com/geodave810/_GardenHoseWrap/assets/13069472/2558e077-edb7-42fb-a99a-20b47eb52731)
+![GardenHoseWrap_Dialog_v1_1_0](https://github.com/geodave810/_GardenHoseWrap/assets/13069472/b3f0bfa8-61e4-42eb-9320-ffcd6789da0c)
 
 To use the fusion 360 python script copy the folder _GardenHoseWrap to this location.<br> C:\Users\<Username>\AppData\Roaming\Autodesk\Autodesk Fusion 360\API\Scripts\
 ![_GardenHoseWrapLocation](https://github.com/geodave810/_GardenHoseWrap/assets/13069472/b2a26397-f317-4725-b6b0-a795efd071a3)
