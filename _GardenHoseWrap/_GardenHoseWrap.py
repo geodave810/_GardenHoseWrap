@@ -270,16 +270,15 @@ class CommandCreatedEventHandler(adsk.core.CommandCreatedEventHandler):
             elif Rnd_Flag == 'R':
                 dropdown2Items.add('Sharp', False, '')
                 dropdown2Items.add('Round', True, '')
-            dropdownInput3 = inputs.addDropDownCommandInput('GuideRail', 'Pattern or Long Helix Guide:', adsk.core.DropDownStyles.TextListDropDownStyle)
-            #dropdownInput3 = inputs.addDropDownCommandInput('GuideRail', 'Pattern or Long Helix Guide:', adsk.core.DropDownStyles.TextListDropDownStyle)
-            dropdown3Items = dropdownInput3.listItems
-            dropdown3Items.add('Pattern', False, '')
-            dropdown3Items.add('LongHelix', False, '')
-            GR_Char = 'L'                               #Long is not quite as accurate as Pattern, but should be sufficient for this use & looks cleaner
-            if GR_Char == 'P':
-                dropdown3Items[0].isSelected = True
-            elif GR_Char == 'L':
-                dropdown3Items[1].isSelected = True
+            # dropdownInput3 = inputs.addDropDownCommandInput('GuideRail', 'Pattern or Long Helix Guide:', adsk.core.DropDownStyles.TextListDropDownStyle)
+            # dropdown3Items = dropdownInput3.listItems
+            # dropdown3Items.add('Pattern', False, '')
+            # dropdown3Items.add('LongHelix', False, '')
+            # GR_Char = 'L'                               #Long is not quite as accurate as Pattern, but should be sufficient for this use & looks cleaner
+            # if GR_Char == 'P':
+            #     dropdown3Items[0].isSelected = True
+            # elif GR_Char == 'L':
+            #     dropdown3Items[1].isSelected = True
 # Connect to the execute event.
             onExecute = CommandExecuteHandler()
             cmd.execute.add(onExecute)
@@ -313,10 +312,10 @@ class CommandExecuteHandler(adsk.core.CommandEventHandler):
                 Rnd_Flag = 'S'
             else:
                 Rnd_Flag = 'R'
-            GuideRail = dropdownInput3.selectedItem.name
-            GR_Char = 'P'
-            if GuideRail =='LongHelix':
-                GR_Char = 'L' 
+            #GuideRail = dropdownInput3.selectedItem.name
+            GR_Char = 'L'
+            #if GuideRail =='LongHelix':
+            #    GR_Char = 'L' 
             ID = IDInput.text
             pitch = pitchInput.text
             Thk = ThkInput.text
